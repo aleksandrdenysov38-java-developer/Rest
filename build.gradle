@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-web:6.2.7'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.20.0'
+}
